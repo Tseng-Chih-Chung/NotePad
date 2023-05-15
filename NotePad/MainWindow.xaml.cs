@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO; // 要引用這個IO函式庫，才能作檔案處理
 
 namespace NotePad
 {

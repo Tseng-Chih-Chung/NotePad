@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btn_open" Content="開啟檔案" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="64" Click="btn_open_Click"/>
+        <Button x:Name="btn_save" Content="存檔" HorizontalAlignment="Left" Height="30" Margin="91,10,0,0" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.418,0.761"/>
+        <RichTextBox x:Name="rtb_text" HorizontalAlignment="Center" Height="380" Margin="0,45,0,0" VerticalAlignment="Top" Width="780">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
     </Grid>
 </Window>
